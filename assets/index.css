@@ -1,0 +1,82 @@
+body {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: auto;
+}
+
+h1,h2 {
+  color: rgb(41, 41, 41);
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+a {
+  color: rgb(106, 106, 106);
+  text-decoration: none;
+  font-size: larger;
+}
+
+a:hover {
+  background-color: rgb(41, 41, 41);
+  color: white;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+  background-color: rgb(41, 41, 41);
+  padding: 5px;
+  height: 20px;
+}
+
+.logo {
+  display: flex;
+  gap: 3px;
+  width: min-content;
+  cursor: pointer;
+}
+
+.logo__img {
+  width: 20px;
+  height: 20px;
+}
+
+.logo__text {
+  color: white;
+}
+
+.about__text {
+  font-style: italic;
+}
+
+.about__img {
+  width: 20px;
+  height: 20px;
+}
+
+.hacktivity {
+  margin-top: 3px;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer {
+  margin-top: auto;
+  text-align: center;
+  font-size: small;
+  color: rgb(41, 41, 41);
+}
+
+/* .writeup {
+  margin-top: 3px;
+  text-align: center;
+  padding: 10px;
+} */
+
+.writeup__subtext {
+  font-size: small;
+  color: rgb(106, 106, 106);
+}
