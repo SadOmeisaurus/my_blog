@@ -1,16 +1,10 @@
 title: SadOmeisaurus
 email: ""
 description: CTF Player, Bug Hunter, Frontend developer
-baseurl: "my_blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/my_blog"
+url: ""
 twitter: ""
 github:  ""
 telegram: "https://t.me/SadOmeisaurus"
-
-# defaults:
-#   - scope:
-#       path: "assets/img"
-#     values:
-#       image: true
-#   - scope:
-#     path: "assets/css"
+scss:
+  style: compressed
